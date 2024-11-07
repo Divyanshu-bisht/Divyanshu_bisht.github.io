@@ -1,0 +1,449 @@
+/* box 1 of navbar */
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 6vw;
+    max-width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 6vw;
+    width: 12vw;
+}
+.logo{
+    background-image: url(amazon1.png);
+    background-size:cover;
+    height: 80%;
+    width:100%;
+}
+.boder {
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box2 of navbar */
+.add-1{
+    color: #cccccc;
+    font-size: 1.2vw;
+    margin-left: 15px;
+}
+.add-2{
+    margin-left: 3px;
+    font-size: 1.4vw;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-icon i{
+    font-size: 1.8vw;
+}
+/* Box 3 of navbar */
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 4vw;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 1.5vw;
+}
+.styleSelect {
+    position: absolute;
+    z-index: 10;
+    width: 168px;
+    height: 34px;
+    border: 1px solid #000;
+}
+.search-input{
+    width: 100%;
+    font-size: 1.6vw;
+    border: none;
+}
+.search-icon{
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+.navsearch:hover {
+    border: 2px solid orange;
+}
+/* Box 4 of navbar */
+span{
+    font-size: 1.15vw;
+}
+.nav2{
+    font-size: 1.25vw;
+    font-weight: 700;
+}
+/* Box 5 */
+.navcart i {
+    font-size: 2.2vw;
+}
+.navcart {
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+.navcart border{
+    max-width: 10%;
+}
+
+/* PANEL */
+.panel {
+    height: 3.5vw;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+    font-size: 1.3vw;
+}
+.panel-all{
+    font-size: 1.5vw;
+}
+.panel-deals {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: url(hero-image2.jpg);
+    background-size: cover;
+    height: 28vw;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+.hero-message {
+    display: flex;
+    background-color: white;
+    height: 4vw;
+    width: 95%;
+    max-width: 100%;
+    font-size: 1.4vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 225px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2vw;
+}
+.hero-message a {
+    font-size: 1.4vw;
+    color: #007185;
+    text-decoration: none;
+    width: 100%;
+}
+.hero-message a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.shop {
+    background-color: #e2e7e6;
+    height: 300%;
+    padding: 1.3vw 1.5vw 0px 1.5vw;
+}
+.shop-text {
+    font-size: 2vw;
+    font-weight: 700;
+    display:flex;
+    height: 3vw;
+    width: 97%;
+    margin-left: 3vw;
+} 
+.shop-content1 {
+    background-color: white;
+    display: flex;
+    height: 22vw;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box {
+    background-color: white;
+    position: relative;
+    top: 10px;
+    max-height: 20vw;
+}
+.image-croc{
+    width: 35vw;
+}
+.shop-content1 img{
+    height: 20vw;
+}
+
+.image{
+    height: auto;
+    max-width: 100%;
+}
+
+.shop-content2 {
+    display: flex;
+    justify-content: space-between;
+    height: 40vw;
+    background-color: #e2e7e6;
+    max-width: 100%;
+}
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    align-items: center;
+    height: 15vw;
+}
+.row1 img{
+    height: 12vw;
+}
+.boxx {
+    position: relative;
+    height: 12vw;
+     max-width: 43%;
+     font-size: 1vw;
+}
+.full-content {
+    background-color: white;
+    height: 37vw;
+    width: 32%;
+}
+.image-2{
+    height: 26vw;
+    margin-top: 2vw;
+}
+
+.shop-text2{
+    margin-top: 1vw;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-left: 2vw;
+}
+
+.image-text1 {
+    font-size: 1vw;
+}
+
+.seemore1 a {
+    margin-top: 1.5vw;
+    margin-left: 1.8vw;
+    color: #007185;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.see a:hover {
+    color: rgb(255, 123, 0);
+}
+
+.shop-content3 {
+    display: flex;
+    justify-content: space-between;
+    height: 37vw;
+    background-color: #e2e7e6;
+    width: 100%;
+}
+.boxxx {
+    background-color: white;
+    height: 29vw;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+    
+}
+.seemore4{
+    height: 2vw;
+}
+.seemore4 a {
+    margin-left: 1.9vw;
+    margin-top: 2vw;
+    color: #007185;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+.see {
+    display: block;
+}
+
+.see a {
+    display: block;
+}
+
+.ending {
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+}
+.ending1 {
+    font-size: 1.3vw;
+    background-color: #febd68;
+    width: 25%;
+    height: 3vw;
+    border: 1px solid rgb(255, 123, 0);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    align-items: center;
+}
+.sign {
+    margin-top: 0.9vw;
+    display: flex;
+    justify-content: center;
+    height: 3vw;
+}
+.new {
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+}
+.new a {
+    font-size: 1.1vw;
+    color: #007185;
+    text-decoration: none;
+}
+.footer {
+    height: 100%;
+}
+.back {
+    background-color: #374751;
+    color: white;
+    font-size: 1.3vw;
+    padding-top: 1.3vw;
+    padding-bottom: 1.3vw;
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    background-color:#222f3d;
+    height: 40vw;
+    display: flex;
+    padding-top: 7vw;
+    padding-right: 10px;
+    padding-bottom: 9vw;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.list {
+    color: white;
+    font-size: 1.3vw;
+    list-style-type: none;
+    height: 30vw;
+    padding: 0px;
+    margin-left: 1vw;
+}
+.list li{
+    width: 15vw;
+}
+.list p {
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+.more {
+    background-color:#222f3d;
+    color: white;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-select2 {
+    width: 14%;
+    height: 3.5vw;
+    font-size: 1.3vw;
+    border: 1px solid #ffffff;
+    background-color: #222f3d;
+    color: white;
+    border-radius: 4px;
+}
+.button {
+    width: 15%;
+    height: 3.5vw;
+    font-size: 1.3vw;
+    color: white;
+    background-color: #222f3d;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.logo2 {
+    margin-right: 10vw;
+    height: 5vw;
+}
+.logo2 img{
+    height: 5vw;
+}
+.recommendations{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.footer-end {
+    background-color: #04021a;
+    width: 100%;
+    height: 100%;
+}
+.nav_a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright{
+    background-color: #04021a;
+    
+}
+.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 3vw;
+    
+}
+.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright ul li{
+    margin-right: 20px;
+    font-size: 0.8rem;
+}
+.navFooterLine.navFooterLinkLine.navFooterPadItemLine.navFooterCopyright span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.navFooterDescItem{
+    font-size: 1vw;
+}
+.navFooterDescText{
+    font-size: 1vw;
+}
+.navFooterMoreOnAmazon{
+    max-width: 100%;
+    height: 38vw;
+    padding-left: 1vw;
+}
